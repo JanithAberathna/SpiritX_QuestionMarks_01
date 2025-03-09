@@ -24,33 +24,26 @@ Prerequisites
 Steps to Run
 
 1. Clone the repository
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+  git clone https://github.com/your-repo-name.git
+  cd your-repo-name
 
 2. Install Dependencies
 
-Backend Setup
-cd Server
-npm install
+  Backend Setup
+    cd Server
+    npm install
 
-Frontend Setup
-cd Client
-npm install
+  Frontend Setup
+    cd Client
+    npm install
 
-3. Set Up Environment Variables
-Create a .env file in the backend directory and add the following details:
-
-PORT=8000
-MONGO_URI=your_mongodb_atlas_connection_string
-JWT_SECRET=your_secret_key
-
-4. Start the Server
+3. Start the Server
 
 cd Server
 npm start
 By default, the backend runs on http://localhost:8000
 
-5. Start the Frontend
+4. Start the Frontend
 
 cd Client
 npm run dev
