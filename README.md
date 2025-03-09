@@ -56,13 +56,6 @@ cd Client
 npm run dev
 By default, the frontend runs on http://localhost:5173
 
-Database Setup and Configuration
-
-We are using MongoDB Atlas as our database. Follow these steps to set it up:
-1. Create a MongoDB Atlas account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
-2. Set up a new cluster and get the connection string.
-3. Replace MONGO_URI in the .env file with your connection string.
-
 Assumptions Made During Development
 
 - Users are required to provide a unique username for registration.
